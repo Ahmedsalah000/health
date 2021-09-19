@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "oregano";
+    src: url(../fonts/oregano/Oregano-Regular.ttf);
+}
+
+@font-face {
+    font-family: "open-sans";
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.general-section::after {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    top: -30px;
+    left: calc(50% - 60px);
+    border-radius: 50%;
+    z-index: -1;
+}
